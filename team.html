@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet the Team | Melodies of Grace (MOG)</title>
+  <meta name="description"
+    content="Meet the 27 talented vocalists, virtuosic instrumentalists, and executive leadership behind Melodies of Grace. Explore member profiles, instruments, and roles.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/branding/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+
+  <!-- Navigation Header -->
+  <header class="mog-navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Melodies of Grace Home">
+        <img src="assets/images/branding/logo.svg" alt="Melodies of Grace Monogram" class="brand-symbol">
+        <span class="brand-text">MELODIES OF GRACE</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About MOG</a>
+        <a href="team.html" class="nav-link active">Meet the Team</a>
+        <a href="gallery-events.html" class="nav-link">Gallery & Events</a>
+        <a href="music-media.html" class="nav-link">Music & Media</a>
+        <a href="connect.html" class="nav-link">Connect With Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="connect.html#booking" class="btn btn-gold-sm nav-cta">Book Ensemble</a>
+        <button class="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <section class="page-hero"
+    style="background-image: linear-gradient(to top, rgba(6,7,10,1) 0%, rgba(6,7,10,0.7) 60%, rgba(6,7,10,0.5) 100%), url('assets/images/gallery/6.jpg'); padding: 140px 0 80px;">
+    <div class="container text-center">
+      <span class="hero-badge reveal-on-scroll">THE ENSEMBLE FAMILY</span>
+      <h1 class="hero-title reveal-on-scroll" style="font-size: 3rem; margin-bottom: 16px;">MEET THE TEAM</h1>
+      <p class="hero-tagline reveal-on-scroll" style="max-width: 740px; margin: 0 auto;">
+        Discover the 27 passionate vocalists, virtuosic instrumentalists, and leadership coordinators who bring the
+        sacred sound of Melodies of Grace to life.
+      </p>
+
+      <!-- Category Filter Tabs (Categorised by Vocal Parts & Roles) -->
+      <div class="team-filter-tabs reveal-on-scroll"
+        style="margin-top: 36px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+        <button class="filter-btn active" data-filter="all">All Members (27)</button>
+        <button class="filter-btn" data-filter="soprano">Soprano</button>
+        <button class="filter-btn" data-filter="alto">Alto</button>
+        <button class="filter-btn" data-filter="tenor">Tenor</button>
+        <button class="filter-btn" data-filter="musicians">Instrumentalists</button>
+        <button class="filter-btn" data-filter="management">Leadership & Staff</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Member Grid Section -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      <div class="team-grid" id="team-members-grid">
+        <!-- Dynamically rendered by JavaScript from mogData.team -->
+      </div>
+
+      <!-- Official Department Structure & Leadership Directory (From PDF Page 1) -->
+      <div class="dept-org-section reveal-on-scroll" id="departments-directory">
+        <div class="text-center" style="margin-bottom: 24px;">
+          <span
+            style="color: var(--color-gold); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;">ORGANIZATIONAL
+            STRUCTURE</span>
+          <h2 style="color: var(--color-cream); font-size: 1.8rem; margin: 8px 0;">Departments & Leadership Directory
+          </h2>
+          <p style="color: var(--color-text-muted); font-size: 0.95rem; max-width: 650px; margin: 0 auto;">
+            The official leadership roles, section heads, and departmental coordinators steering Melodies of Grace.
+          </p>
+        </div>
+        <div class="dept-grid" id="departments-grid">
+          <!-- Dynamically populated from mogData.departments -->
+        </div>
+      </div>
+
+      <!-- Join Our Crew CTA Box -->
+      <div class="card reveal-on-scroll"
+        style="margin-top: 60px; padding: 40px; text-align: center; background: rgba(14, 16, 22, 0.85); border: 1px solid var(--color-gold);">
+        <span
+          style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;">Auditions
+          2026</span>
+        <h2 style="color: var(--color-cream); font-size: 2rem; margin: 10px 0 14px;">Do You Have a Passion for Worship &
+          Excellence?</h2>
+        <p
+          style="color: var(--color-text-muted); max-width: 620px; margin: 0 auto 24px; font-size: 0.95rem; line-height: 1.6;">
+          Melodies of Grace is auditioning new vocalists and instrumentalists. Check our requirements, view the official
+          audition flyer, and apply to join our crew in praise.
+        </p>
+        <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+          <a href="connect.html#auditions" class="btn btn-gold">View Auditions Hub & Flyer &rarr;</a>
+          <a href="https://wa.me/919311406305?text=Hello%20MOG,%20I%20would%20like%20to%20inquire%20about%20auditioning%20for%20the%20ensemble!"
+            target="_blank" rel="noopener" class="btn btn-outline">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Universal Team Member Modal -->
+  <div class="lightbox-modal" id="team-modal" role="dialog" aria-modal="true">
+    <button class="lightbox-close modal-close" aria-label="Close dialog">&times;</button>
+    <div class="mog-form-card" style="max-width: 620px; width: 92%; padding: 36px;">
+      <div style="display: flex; gap: 24px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
+        <img src="" alt="" class="modal-member-img"
+          style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-gold); box-shadow: 0 0 20px rgba(212,175,55,0.4);">
+        <div>
+          <span class="modal-member-country member-country-tag"></span>
+          <h3 class="modal-member-name" style="font-size: 1.6rem; color: var(--color-cream); margin-bottom: 4px;"></h3>
+          <div class="modal-member-role"
+            style="color: var(--color-gold); font-size: 0.92rem; font-weight: 600; line-height: 1.4;"></div>
+        </div>
+      </div>
+      <p class="modal-member-bio"
+        style="color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.65; margin-bottom: 20px;"></p>
+      <div class="modal-member-quote"
+        style="background: rgba(212,175,55,0.06); border-left: 3px solid var(--color-gold); padding: 14px 18px; font-style: italic; color: var(--color-cream); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Universal Footer -->
+  <footer class="mog-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+            <img src="assets/images/branding/logo.svg" alt="MOG Crest" style="width: 38px; height: 38px;">
+            <span
+              style="font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem; color: var(--color-cream); letter-spacing: 0.08em;">
+              MELODIES OF GRACE
+            </span>
+          </div>
+          <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px;">
+            A premier multinational musical ensemble dedicated to choral majesty, youth empowerment, and cultural
+            excellence in praise.
+          </p>
+          <div style="color: var(--color-gold); font-size: 0.85rem; font-weight: 600;">
+            Tagline: "Be Part of Our Crew in Praise"
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About MOG</a></li>
+            <li><a href="team.html">Meet the Team</a></li>
+            <li><a href="gallery-events.html">Gallery & Event Flyers</a></li>
+            <li><a href="music-media.html">Music & Media Hub</a></li>
+            <li><a href="connect.html">Booking & Auditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Direct Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:melodiesofgrace9@gmail.com">melodiesofgrace9@gmail.com</a></li>
+            <li><a href="tel:+919311406305">+919311406305 (Direct Inquiries)</a></li>
+            <li><a href="tel:+255681865105">+255681865105</a></li>
+            <li><a href="tel:+917838224974">+917838224974</a></li>
+            <li style="color: var(--color-text-muted); font-size: 0.85rem; margin-top: 8px;">New Delhi & Greater Noida,
+              India / International</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Social Channels</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/melodiesofgrace3" target="_blank" rel="noopener"
+              aria-label="Instagram">IG</a>
+            <a href="https://www.facebook.com/melodiesofgrace" target="_blank" rel="noopener"
+              aria-label="Facebook">FB</a>
+            <a href="https://youtube.com/@MelodiesOfGrace" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+            <a href="https://wa.me/919311406305" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="connect.html#auditions" class="btn btn-gold-sm" style="width: 100%; text-align: center;">Audition
+              for MOG</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="current-year"></span> Melodies of Grace. All Rights Reserved.</div>
+        <div style="color: var(--color-text-muted); font-size: 0.82rem;">Unity • Musical Excellence • Spiritual
+          Reverence</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/mog-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Populate and filter team grid dynamically from mogData.team
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('team-members-grid');
+      if (!grid || !window.mogData || !window.mogData.team) return;
+
+      function renderTeam(filterKey) {
+        grid.innerHTML = '';
+        let members = window.mogData.team;
+        if (filterKey === 'soprano') {
+          members = window.mogData.team.filter(m => m.vocalPart === 'soprano');
+        } else if (filterKey === 'alto') {
+          members = window.mogData.team.filter(m => m.vocalPart === 'alto');
+        } else if (filterKey === 'tenor') {
+          members = window.mogData.team.filter(m => m.vocalPart === 'tenor');
+        } else if (filterKey === 'musicians') {
+          members = window.mogData.team.filter(m => m.category === 'musicians' || m.vocalPart === 'instrumentalist');
+        } else if (filterKey === 'management') {
+          members = window.mogData.team.filter(m => m.isLeadership || m.category === 'management');
+        }
+
+        members.forEach(m => {
+          const card = document.createElement('div');
+          card.className = 'team-member-card reveal-on-scroll is-visible';
+          card.innerHTML = `
+            <div class="member-img-wrap">
+              <img src="${m.image}" alt="${m.name} - ${m.part}" loading="lazy">
+              <div class="member-overlay">
+                <div class="member-meta">
+                  <span class="member-country-tag">&#127757; ${m.country}</span>
+                  <h3 class="member-name">${m.name}</h3>
+                  <div class="member-role">Part: ${m.part}</div>
+                  ${m.departmentRole ? `<div class="member-dept-tag">${m.departmentRole}</div>` : ''}
+                </div>
+              </div>
+            </div>
+            <div class="member-card-footer">
+              <span class="member-action">View Profile &rarr;</span>
+              <span class="member-part-pill">${m.part}</span>
+            </div>
+          `;
+          card.addEventListener('click', () => {
+            window.openTeamMemberModal(m.id);
+          });
+          grid.appendChild(card);
+        });
+      }
+
+      renderTeam('all');
+
+      // Setup filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderTeam(btn.getAttribute('data-filter'));
+        });
+      });
+
+      // Render Department Leadership Directory
+      const deptGrid = document.getElementById('departments-grid');
+      if (deptGrid && window.mogData && window.mogData.departments) {
+        deptGrid.innerHTML = '';
+        window.mogData.departments.forEach(dept => {
+          const card = document.createElement('div');
+          card.className = 'dept-card';
+          const membersList = dept.members.map(m => `
+            <li class="dept-member-item">
+              <span class="dept-member-role">${m.role}</span>
+              <span class="dept-member-name">${m.name}</span>
+            </li>
+          `).join('');
+          card.innerHTML = `
+            <div class="dept-title">${dept.name}</div>
+            <ul class="dept-member-list">${membersList}</ul>
+          `;
+          deptGrid.appendChild(card);
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

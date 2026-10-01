@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About MOG | Leadership, History & Meet the Team</title>
+  <meta name="description" content="Discover the story, executive management, history timeline, and 25+ talented members and musicians behind Melodies of Grace.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/branding/favicon.svg">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function() {
+      const pref = localStorage.getItem('mog-theme-preference') || 'system';
+      const effective = pref === 'system' ? (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark') : pref;
+      document.documentElement.setAttribute('data-theme', effective);
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="mog-navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Melodies of Grace Home">
+        <img src="assets/images/branding/logo.svg" alt="Melodies of Grace Monogram" class="brand-symbol">
+        <span class="brand-text">MELODIES OF GRACE</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About MOG</a>
+        <a href="team.html" class="nav-link">Meet the Team</a>
+        <a href="gallery-events.html" class="nav-link">Gallery & Events</a>
+        <a href="music-media.html" class="nav-link">Music & Media</a>
+        <a href="connect.html" class="nav-link">Connect With Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="theme-switcher-wrapper" role="radiogroup" aria-label="Theme mode selector">
+          <button type="button" class="theme-pill-btn" data-theme-choice="light" title="Light theme" aria-label="Light mode">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            <span class="sr-only">Light</span>
+          </button>
+          <button type="button" class="theme-pill-btn" data-theme-choice="dark" title="Dark theme" aria-label="Dark mode">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <span class="sr-only">Dark</span>
+          </button>
+          <button type="button" class="theme-pill-btn" data-theme-choice="system" title="System settings" aria-label="System mode">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            <span class="sr-only">System</span>
+          </button>
+        </div>
+        <a href="connect.html#booking" class="btn btn-gold-sm nav-cta">Book Ensemble</a>
+        <button class="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <section class="page-hero" style="background-image: linear-gradient(to top, rgba(6,7,10,1) 0%, rgba(6,7,10,0.7) 60%, rgba(6,7,10,0.5) 100%), url('assets/images/gallery/1.jpg'); padding: 140px 0 80px;">
+    <div class="container text-center">
+      <span class="hero-badge reveal-on-scroll">THE STORY & THE VOICES</span>
+      <h1 class="hero-title reveal-on-scroll" style="font-size: 3rem; margin-bottom: 16px;">ABOUT MELODIES OF GRACE</h1>
+      <p class="hero-tagline reveal-on-scroll" style="max-width: 720px; margin: 0 auto;">
+        From our founding on December 5, 2024 to an internationally recognized choral ensemble and lifestyle movement, explore the hearts driving our sound.
+      </p>
+    </div>
+  </section>
+
+  <!-- Executive Management Section -->
+  <section class="section" id="management">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">EXECUTIVE STEWARDSHIP</span>
+        <h2 class="section-title">Leadership Behind the Vision</h2>
+        <p class="section-desc">
+          Guiding Melodies of Grace with spiritual reverence, musical perfection, and empowering mentorship.
+        </p>
+      </div>
+
+      <div class="management-grid">
+        <!-- Director Card -->
+        <div class="management-card reveal-on-scroll">
+          <div class="management-img-wrap">
+            <img src="assets/images/management/Zolani_Clarence_Mpofu_Director.jpg" alt="Zolani Clarence Mpofu - Founder & Director">
+            <div class="management-img-overlay"></div>
+            <span class="management-badge">Founder & Director</span>
+          </div>
+          <div class="management-info">
+            <h3 class="management-name">Zolani Clarence Mpofu</h3>
+            <div class="management-title">Founder & Director</div>
+            <p class="management-bio">
+              As Founder and Director, Zolani carries the vision of Melodies of Grace while also serving as one of its Tenor vocalists. An accomplished choral visionary, composer, and musical director with a profound devotion to vocal excellence, youth mentorship, and cultural unity.
+            </p>
+            <div class="management-quote">
+              "Music is not merely sound; it is the language of grace that dissolves borders, heals the wounded spirit, and elevates souls into true worship."
+            </div>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Artistic Director</span>
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Tenor Vocalist</span>
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Youth Mentor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Assistant Director Card -->
+        <div class="management-card reveal-on-scroll">
+          <div class="management-img-wrap">
+            <img src="assets/images/management/Kudzaishe_Mazonde_Asst_Director.jpg" alt="Kudzaishe Mazonde (Kudzi) - Assistant Director">
+            <div class="management-img-overlay"></div>
+            <span class="management-badge">Assistant Director</span>
+          </div>
+          <div class="management-info">
+            <h3 class="management-name">Kudzaishe Mazonde (Kudzi)</h3>
+            <div class="management-title">Assistant Director</div>
+            <p class="management-bio">
+              Kudzaishe serves as Assistant Director and is part of the Management Team. She coordinates ensemble rehearsals, vocal staging, and group operations, and has also led the Alto section as its Part Leader.
+            </p>
+            <div class="management-quote">
+              "True excellence in harmony begins with humility in the heart and dedication to the collective sound. At MOG, every voice is valued and polished."
+            </div>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Assistant Director</span>
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Alto Vocalist</span>
+              <span class="badge" style="background: rgba(212,175,55,0.15); color: var(--color-gold); font-size: 0.75rem; padding: 4px 10px; border-radius: var(--radius-pill);">Management Team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Management Group Spotlight -->
+      <div class="card reveal-on-scroll" style="margin-top: 40px; padding: 32px; display: grid; grid-template-columns: 1fr 1.2fr; gap: 32px; align-items: center;">
+        <div style="border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); aspect-ratio: 16/10;">
+          <img src="assets/images/management/management.jpg" alt="Melodies of Grace Executive Team" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div>
+          <span style="color: var(--color-gold); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;">Collaborative Leadership</span>
+          <h3 style="color: var(--color-cream); font-size: 1.6rem; margin: 8px 0 12px;">United by a Single Calling</h3>
+          <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">
+            Supported by Event Manager Neema, Media Chief Rachael, and virtuosic band leads, the leadership ensures that every rehearsal, tour, and concert runs with corporate precision and spiritual warmth.
+          </p>
+          <a href="connect.html#booking" class="btn btn-gold-sm">Inquire for Direct Engagement &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- History & Milestones Timeline -->
+  <section class="section" style="background: rgba(14, 16, 22, 0.4); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">CHRONICLES OF GROWTH</span>
+        <h2 class="section-title">Our Milestone Timeline</h2>
+        <p class="section-desc">
+          How a handful of passionate voices grew into a movement celebrating youth, unity, and choral majesty.
+        </p>
+      </div>
+
+      <div class="history-timeline">
+        <!-- December 5, 2024 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">Dec 5, 2024</div>
+            <h3 class="timeline-title">The Genesis & Foundation</h3>
+            <p class="timeline-desc">
+              Melodies of Grace was officially founded on December 5, 2024, when Founder Zolani Clarence Mpofu and a passionate circle of young international vocalists and musicians united with a shared hunger: to create a premier musical ensemble combining African vocal majesty, symphonic precision, and spiritual devotion.
+            </p>
+          </div>
+        </div>
+
+        <!-- Early 2025 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">Early 2025</div>
+            <h3 class="timeline-title">Sound Crafting & Intensive Clinics</h3>
+            <p class="timeline-desc">
+              Months of intensive vocal masterclasses, harmonic experimentation, and rhythm section clinics. The group forged its signature sound—effortlessly shifting from rich traditional polyphony to contemporary arrangements with full live band.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2025 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2025</div>
+            <h3 class="timeline-title">Concerts, Tours & Brand Apparel</h3>
+            <p class="timeline-desc">
+              Release of the official MOG apparel line (Signature Mocha and Noir streetwear tees) and headline appearances across universities, including the celebrated African Students Fellowship Christmas Concert.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2026 & Beyond -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2026 & Beyond</div>
+            <h3 class="timeline-title">'He Sees He Answers, We Praise' Live Recording</h3>
+            <p class="timeline-desc">
+              Live album recording at YMCA Greater Noida and intimate 'Worship Night' at Kingdomcity Hub New Delhi, expanding the reach toward national broadcasts and global festival stages.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Dedicated Meet the Team CTA Banner -->
+  <section class="section" style="padding: 70px 0; background: rgba(14, 18, 28, 0.4); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+    <div class="container text-center">
+      <span class="hero-badge reveal-on-scroll">THE 27-MEMBER ENSEMBLE</span>
+      <h2 class="section-title reveal-on-scroll" style="margin-bottom: 14px;">Meet the Entire Ensemble Roster</h2>
+      <p class="section-desc reveal-on-scroll" style="max-width: 680px; margin: 0 auto 30px;">
+        Discover all 27 vocalists, virtuosic band instrumentalists, and executive leaders with their vocal parts, countries, and departmental appointments on our dedicated Meet the Team hub.
+      </p>
+      <div class="reveal-on-scroll" style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="team.html" class="btn btn-gold">Explore All Team Profiles & Departments &rarr;</a>
+        <a href="https://drive.google.com/drive/folders/1BOJa6Fn6AClE84l_LwaE102ekSdRLDb4" target="_blank" rel="noopener" class="btn btn-outline">
+          Team Photo Drive Archive
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Universal Footer -->
+  <footer class="mog-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+            <img src="assets/images/branding/logo.svg" alt="MOG Crest" style="width: 38px; height: 38px;">
+            <span style="font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem; color: var(--color-cream); letter-spacing: 0.08em;">
+              MELODIES OF GRACE
+            </span>
+          </div>
+          <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px;">
+            A premier multinational musical ensemble dedicated to choral majesty, youth empowerment, and cultural excellence in praise.
+          </p>
+          <div style="color: var(--color-gold); font-size: 0.85rem; font-weight: 600;">
+            Tagline: "Be Part of Our Crew in Praise"
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About MOG & Team</a></li>
+            <li><a href="gallery-events.html">Gallery & Event Flyers</a></li>
+            <li><a href="music-media.html">Music & Media Hub</a></li>
+            <li><a href="connect.html">Booking & Auditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Direct Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:melodiesofgrace9@gmail.com">melodiesofgrace9@gmail.com</a></li>
+            <li><a href="tel:+919311406305">+91 93114 06305 (Direct Inquiries)</a></li>
+            <li><a href="tel:+919311231098">+91 93112 31098</a></li>
+            <li><a href="tel:+919667024366">+91 96670 24366</a></li>
+            <li style="color: var(--color-text-muted); font-size: 0.85rem; margin-top: 8px;">New Delhi & Greater Noida, India / International</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Social Channels</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/melodiesofgrace3?stkn=NW5rcDM3Z2xoZHg5" target="_blank" rel="noopener" aria-label="Melodies of Grace on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.tiktok.com/@melodiesofgrace3?_t=ZS-8tFVZcW9mL4&_r=1" target="_blank" rel="noopener" aria-label="Melodies of Grace on TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.85.12V9.32a6.34 6.34 0 0 0-.85-.06A6.33 6.33 0 0 0 3.15 15.6a6.34 6.34 0 0 0 9.77 5.34c.48-.34.9-.76 1.23-1.25.43-.63.67-1.39.67-2.18V8.76a8.27 8.27 0 0 0 4.77 1.49V6.79a4.8 4.8 0 0 1-3.77-.1z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@melodies_of_grace?si=TB2gU3RAY-7OCiRP" target="_blank" rel="noopener" aria-label="Melodies of Grace on YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/1BRxwUJJGP" target="_blank" rel="noopener" aria-label="Melodies of Grace on Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://whatsapp.com/channel/0029Vb7E9P53LdQQMmp7Mz2N" target="_blank" rel="noopener" aria-label="Melodies of Grace on WhatsApp Channel">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.9 2.42 1.02 2.59.13.17 1.76 2.69 4.27 3.77.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+            </a>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="connect.html#auditions" class="btn btn-gold-sm" style="width: 100%; text-align: center;">Audition for MOG</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="current-year"></span> Melodies of Grace. All Rights Reserved.</div>
+        <div style="color: var(--color-text-muted); font-size: 0.82rem;">Unity • Musical Excellence • Spiritual Reverence</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/mog-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
